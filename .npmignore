@@ -1,0 +1,7 @@
+coverage
+demo
+src
+.eslintrc.json
+.eslintignore
+*.config.js
+*.js

@@ -1,0 +1,15 @@
+/* purgecss start ignore */
+@tailwind  base;
+@tailwind  components;
+/* purgecss end ignore */
+h1 {
+  @apply text-2xl;
+  @apply font-bold;
+}
+
+.contact_form {
+  @apply font-sans;
+  @apply leading-normal;
+}
+
+@tailwind  utilities;

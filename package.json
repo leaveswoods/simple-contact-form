@@ -1,0 +1,99 @@
+{
+  "name": "simple-contact-form",
+  "version": "0.0.1",
+  "description": "An simple contact form for React",
+  "main": "dist/index.min.js",
+  "peerDependencies": {
+    "react": ">=16.9.0",
+    "react-dom": ">=16.9.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "concurrently npm:watch-*",
+    "build": "npm run test && npm run build-js && gulp",
+    "watch-css": "npm run build-css -- --watch",
+    "watch-js": "cross-env NODE_ENV=development webpack --watch",
+    "build-js": "cross-env NODE_ENV=production webpack",
+    "test": "jest",
+    "build-css": "node-sass-chokidar ./src -o ./src"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "contact",
+    "form",
+    "ui",
+    "frontend"
+  ],
+  "contributors": [
+    "leaveswoods"
+  ],
+  "author": "leaveswoods",
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.6.2",
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "@testing-library/jest-dom": "^5.5.0",
+    "@testing-library/react": "^10.0.2",
+    "@types/jest": "^25.2.1",
+    "autoprefixer": "^9.7.5",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.3.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-import": "^1.12.2",
+    "concurrently": "^5.1.0",
+    "cross-env": "^7.0.2",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "husky": "^4.2.5",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^25.3.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "node-sass-chokidar": "^1.4.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.0.4",
+    "purgecss-webpack-plugin": "^2.1.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "tailwindcss": "^1.2.0",
+    "webpack": "^4.41.0",
+    "webpack-bundle-analyzer": "^3.6.1",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "validator": "^13.0.0"
+  }
+}

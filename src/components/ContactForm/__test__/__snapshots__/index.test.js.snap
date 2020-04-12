@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Form Fields should display loader when loading is true 1`] = `
+<div
+  class="btn_loader"
+  data-testid="btn_loader"
+/>
+`;
+
+exports[`Contact Form Fields should only render specified fields 1`] = `
+<DocumentFragment>
+  <div
+    class="contact_form"
+  >
+    <div
+      class="form"
+    >
+      <div
+        style="display: flex; justify-content: space-between; align-items: center;"
+      >
+        <div
+          style="width: 48%;"
+        >
+          <div
+            class="input_item"
+          >
+            <input
+              placeholder="First Name"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          style="width: 48%;"
+        >
+          <div
+            class="input_item"
+          >
+            <input
+              placeholder="Last Name"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="input_item"
+      >
+        <input
+          placeholder="Email"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="input_item"
+      >
+        <textarea
+          placeholder="Message"
+          rows="5"
+        />
+      </div>
+      <div
+        class="btn_outer"
+      >
+        <div
+          class="btn_inner"
+          role="button"
+          tabindex="0"
+        >
+          Submit
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Contact Form Fields should prompt error message if required fields are empty 1`] = `
+Array [
+  <div
+    class="error_message text-red-500 absolute text-sm"
+    data-testid="form_field_error_message"
+  >
+    Please enter your first name
+  </div>,
+  <div
+    class="error_message text-red-500 absolute text-sm"
+    data-testid="form_field_error_message"
+  >
+    Please enter your last name
+  </div>,
+  <div
+    class="error_message text-red-500 absolute text-sm"
+    data-testid="form_field_error_message"
+  >
+    Please enter your phone
+  </div>,
+  <div
+    class="error_message text-red-500 absolute text-sm"
+    data-testid="form_field_error_message"
+  >
+    Please enter your email
+  </div>,
+  <div
+    class="error_message text-red-500 absolute text-sm"
+    data-testid="form_field_error_message"
+  >
+    Please leave some message for us
+  </div>,
+]
+`;
+
+exports[`Contact Form Fields should render all fields 1`] = `
+<DocumentFragment>
+  <div
+    class="contact_form"
+  >
+    <div
+      class="form"
+    >
+      <div
+        style="display: flex; justify-content: space-between; align-items: center;"
+      >
+        <div
+          style="width: 48%;"
+        >
+          <div
+            class="input_item"
+          >
+            <input
+              placeholder="First Name"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          style="width: 48%;"
+        >
+          <div
+            class="input_item"
+          >
+            <input
+              placeholder="Last Name"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="input_item"
+      >
+        <input
+          placeholder="Email"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="input_item"
+      >
+        <input
+          placeholder="Phone"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="input_item"
+      >
+        <textarea
+          placeholder="Message"
+          rows="5"
+        />
+      </div>
+      <div
+        class="btn_outer"
+      >
+        <div
+          class="btn_inner"
+          role="button"
+          tabindex="0"
+        >
+          Submit
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Contact Form Submit Button should render button with text specified 1`] = `
+<div
+  class="btn_inner"
+  role="button"
+  tabindex="0"
+>
+  Submit Button
+</div>
+`;
+
+exports[`Contact Form Title should render title if provided title text 1`] = `
+<DocumentFragment>
+  <div
+    class="contact_form"
+  >
+    <div
+      class="form"
+    >
+      <div
+        class="form_title mb-4 text-4xl text-center"
+      >
+        Contact us now
+      </div>
+      <div
+        style="display: flex; justify-content: space-between; align-items: center;"
+      >
+        <div
+          style="width: 48%;"
+        >
+          <div
+            class="input_item"
+          >
+            <input
+              placeholder="First Name"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          style="width: 48%;"
+        >
+          <div
+            class="input_item"
+          >
+            <input
+              placeholder="Last Name"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="input_item"
+      >
+        <input
+          placeholder="Email"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="input_item"
+      >
+        <input
+          placeholder="Phone"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="input_item"
+      >
+        <textarea
+          placeholder="Message"
+          rows="5"
+        />
+      </div>
+      <div
+        class="btn_outer"
+      >
+        <div
+          class="btn_inner"
+          role="button"
+          tabindex="0"
+        >
+          Submit
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
