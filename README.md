@@ -3,7 +3,8 @@
 > Simple Contact Form Component for React Applications
 
 ## Install
-`React >= 16.8.0`
+The component is developed in React version 16.9.0, however, 16.8.0 seems working as well.
+`React >= 16.9.0`
 
 ```bash
 npm install --save simple-contact-form
@@ -15,6 +16,8 @@ Simple Contact Form is built for simple while also providing some customizabilit
 import React, { useState } from 'react';
 
 import ContactForm from 'simple-contact-form';
+// Don't forget to import styles
+import 'simple-contact-form/dist/index.css';
 
 function Example(props) {
 const [loading, setLoading] = useState(false);
