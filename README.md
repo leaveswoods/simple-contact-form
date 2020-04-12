@@ -68,3 +68,7 @@ alertMessageProps|Object|No|`{text: "", type: ""}`|Alert message props, you can 
 |submitButtonProps|Object|No|`{text: "Submit", style: {}}`|Submit button props, example, `{ text: "Submit", style:{ color: "white", backgroundColor: "blue"  }}` 
 |fields|obj[ ] or str[ ]|No|`fields`|set the fiels to be used in form, currently available, fields are `nameGroup`(first name and last name), `email`, `phone`, `message`, usage could be found in Codesandbox demo
 |title|string|No||set title of form
+
+
+## License
+Simple React Form is licensed under the MIT license. (https://opensource.org/licenses/MIT)
