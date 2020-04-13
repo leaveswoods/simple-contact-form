@@ -1,5 +1,5 @@
 {
-  "name": "simple-contact-form",
+  "name": "simple-contact",
   "version": "0.0.1",
   "description": "An simple contact form for React",
   "main": "dist/index.min.js",
@@ -12,8 +12,8 @@
     "README.md"
   ],
   "bugs": {
-      "url" : "https://github.com/leaveswoods/simple-contact-form/issues",
-      "email" : "leaves.woods92@gmail.com"
+    "url": "https://github.com/leaveswoods/simple-contact-form/issues",
+    "email": "leaves.woods92@gmail.com"
   },
   "repository": {
     "type": "git",
