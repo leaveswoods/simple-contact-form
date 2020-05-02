@@ -8,8 +8,6 @@ import ContactFormAlert from "./Alert";
 import Title from "./Title";
 import { warning, error } from "../../utils";
 
-// import "../../tailwind.css";
-
 function ContactFormWrapper({ children }) {
   return <div className="contact_form">{children}</div>;
 }
